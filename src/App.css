@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.voucher_view {
+  display: flex;
+  justify-content: center;
+}
+
+.voucher_card {
+  padding: 12px;
+  width: 480px;
+  height: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.voucher_img {
+  width: 450px;
+  border: 1px solid black;
+}
+
+.button_nhan {
+  padding: 16px 42px;
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+  line-height: 1.25;
+  background: rgb(95 80 112 / 71%);
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.btn_input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Media queries */
+@media (max-width: 844px) {
+  .App {
+    /* width: 90%; */
+    text-align: center;
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .voucher_view {
+    display: grid;
+    justify-content: center;
+  }
+  .voucher_card {
+    padding: 12px;
+    width: 330px;
+    height: 175px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .voucher_img {
+    width: 300px;
+    border: 1px solid black;
+  }
+  .button_nhan {
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+    line-height: 1.25;
+    background: rgb(95 80 112 / 71%);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 300px;
+  }
+
+  .btn_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .btn_container {
+    /* display: grid; */
+    place-items: center;
+    /* height: 100vh;  */
+  }
+}
+
+
+@media (max-width: 1455px) {
+  .App {
+    text-align: center;
+    /* display: contents; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* .voucher_view {
+    display: grid;
+    justify-content: center;
+  } */
+  .voucher_card {
+    padding: 12px;
+    width: 285px;
+    height: 155px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .voucher_img {
+    width: 255px;
+    border: 1px solid black;
+}
+  .button_nhan {
+    padding: 16px 42px;
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+    line-height: 1.25;
+    background: rgb(95 80 112 / 71%);
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 300px;
+  }
+
+  .btn_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .btn_container {
+    /* display: grid; */
+    place-items: center;
+    /* height: 100vh;  */
+  }
+}
